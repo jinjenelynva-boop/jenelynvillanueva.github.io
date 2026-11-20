@@ -16,3 +16,21 @@
 .portrait-placeholder{background:
   radial-gradient(ellipse at 18% 20%,rgba(248,241,232,.62),transparent 35%),
   linear-gradient(155deg,#d7c2ad 0%,#c5a17d 42%,#87583f 100%);}
+
+.pdf-section{background:linear-gradient(135deg,#eee4d8 0%,#d7c2ad 100%);}
+.pdf-layout{display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:center;}
+.pdf-copy h2{font:500 clamp(38px,4.5vw,58px)/1.13 var(--serif);letter-spacing:-1.5px;margin:0 0 22px;}
+.pdf-copy h2 em{color:var(--mocha);}
+.pdf-copy p{max-width:430px;color:var(--muted);font-size:12px;line-height:1.9;margin-bottom:28px;}
+.pdf-download{display:inline-block;margin-left:20px;font-size:9px;letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--mocha);padding-bottom:6px;color:var(--espresso);}
+.pdf-preview{background:var(--white);padding:15px;box-shadow:16px 18px 0 rgba(87,59,44,.18);transform:rotate(1deg);}
+.pdf-preview-top,.pdf-preview-bottom{display:flex;justify-content:space-between;font-size:7px;letter-spacing:1.3px;color:var(--mocha);padding:3px 2px 12px;}
+.pdf-cover{min-height:310px;background:linear-gradient(155deg,#eee4d8 0%,#d7c2ad 35%,#aa805f 72%,#573b2c 100%);padding:38px 30px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;color:#35231b;position:relative;overflow:hidden;}
+.pdf-cover:after{content:"";position:absolute;width:260px;height:260px;border:1px solid rgba(255,250,245,.45);border-radius:50%;right:-90px;bottom:-110px;box-shadow:0 0 0 18px rgba(255,250,245,.07),0 0 0 38px rgba(255,250,245,.06);}
+.pdf-cover-label{font-size:8px;letter-spacing:2px;margin-bottom:28px;}
+.pdf-cover strong{font:600 54px var(--serif);line-height:1.1;}
+.pdf-cover>span:nth-of-type(2){font:500 18px var(--serif);margin-top:10px;}
+.pdf-cover small{font-size:9px;max-width:210px;line-height:1.7;margin-top:18px;color:#573b2c;}
+.pdf-cover-lines{width:40px;height:1px;background:#573b2c;margin-top:24px;}
+.pdf-preview-bottom{padding:12px 2px 2px;}
+@media(max-width:650px){.pdf-layout{grid-template-columns:1fr;gap:40px}.pdf-copy h2{font-size:42px}.pdf-download{margin:18px 0 0 0;display:block;width:max-content}.pdf-cover{min-height:270px}}

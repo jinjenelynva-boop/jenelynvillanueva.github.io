@@ -21,3 +21,9 @@ The contact email and LinkedIn link are included from the details previously sup
 
 PALETTE UPDATE:
 The site now follows the uploaded reference palette: Beige, Sand, Camel, Tan, Caramel, Mocha, and Chestnut, with warm flowing tonal gradients.
+
+PDF PORTFOLIO:
+- Jenelyn-Executive-Virtual-Assistant-Portfolio.pdf is included in the website root.
+- The homepage hero and Full Portfolio Document section link to this PDF.
+- Upload the PDF alongside index.html, style.css, and script.js to the GitHub repository root.
+- The PDF includes testimonials and package pricing. Verify that testimonials are authorized/real and that prices and availability are current before sharing publicly.
